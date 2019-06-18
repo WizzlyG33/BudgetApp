@@ -1,0 +1,72 @@
+Transaction
+____________________________________________
+TranID 			auto-incremented int
+User			int
+Date			date
+TranDesc		varchar(75)
+TranAmt			float
+TranCat			varchar(3)
+TranType		char
+
+
+
+User
+____________________________________________
+UserID			auto-incremented int
+UserName		varchar(25)
+UserPassword		varchar(16)
+UserSalary		float
+
+
+
+Budget
+____________________________________________
+BudgetID		auto-incremented int
+User			int
+Cat1Pct			int
+Cat2Pct			int
+Cat3Pct			int
+Cat4Pct			int
+Cat5Pct			int
+
+
+
+StaticCosts
+____________________________________________
+TranID 			auto-incremented int
+User			int
+Date			date
+TranDesc		varchar(75)
+TranAmt			float
+
+
+
+TranHistory
+____________________________________________
+TranID			auto-incremented int
+Date			Date
+Cat1BudgetAnalysis	float
+Cat2BudgetAnalysis	float
+Cat3BudgetAnalysis	float
+Cat4BudgetAnalysis	float
+Cat5BudgetAnalysis	float
+
+
+
+Goals
+____________________________________________
+GoalID			auto-incremented int
+User 			int
+EOWGoalAmt		float
+EOMGoalAmt		float
+EOQGoalAmt		float
+EOYGoalAmt		float
+
+
+
+Suggestions
+____________________________________________
+SuggestionID		auto-incremented int
+SuggestionDesc		varchar(100)
+SuggestionVal		int
+

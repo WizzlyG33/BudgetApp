@@ -1,0 +1,66 @@
+Application Name
+________________
+BudgetApp
+
+
+
+Application Description
+_______________________
+The application will help the user(s) to maintain and follow a budget.
+
+
+
+Application Features
+____________________
+-Profiles
+	-Manage individual user information 
+		-individual name
+		-individual income
+		-individual budget
+		-individual goals
+	-Manage group (household) information
+		-group name
+		-group income
+		-group budget
+		-group goals
+-Transactions
+	-Manage list of transactions
+		-add/remove/edit transactions
+		-manage transaction information
+			-transaction date
+			-transaction description
+			-transaction amount
+			-transaction category
+			-transaction type
+-Income
+	-Provide income information
+		-gross income
+		-net income
+		-Salary
+		-Hourly
+		-Monthly
+		-Biweekly
+		-Weekly
+-Budget
+	-Manage budget information
+		-static/dynamic costs
+		-adjust to cost of living
+		-cost categories
+		-pie chart
+		-progress bars
+		-money saved
+-History
+	-Provide past cycle's summaries
+		-cylce timespan
+		-% under/over budget per category
+		-money saved
+		-budget adjustment recommendation
+-Goals
+	-Manage goals
+		-money saved
+-Suggestions
+	-Provide activity/food/saving suggestions
+		-based on where you stand on your budget
+		-based on how much time left in current cycle
+	
+
