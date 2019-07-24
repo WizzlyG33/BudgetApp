@@ -9,6 +9,12 @@ window.title('Small Component')
 #                             CODE                               #
 ##################################################################
 
+#Transactrions Page
+transactionsPage = ttk.Frame(nb)
+nb.add(transactionsPage, text='Transactions')
+
+transLeftFrame = ttk.Frame(transactionsPage)
+
 
 
 ##################################################################

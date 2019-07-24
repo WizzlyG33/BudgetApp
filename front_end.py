@@ -6,6 +6,7 @@ from tkinter import ttk
 window = Tk()
 window.title('BudgetApp')
 window.geometry('500x500')
+window.resizable(width=False, height=False)
 
 #Initialize Grid
 rows = 0
