@@ -15,7 +15,6 @@ window.resizable(width=False, height=False)
 #Notebook
 nb = ttk.Notebook(window, height=500, width=800)
 nb.pack()
-#nb.grid(row=1, column=0, rowspan=49, columnspan=50, sticky='NESW')
 
 ##################################################################
 #                           Profile                              #
