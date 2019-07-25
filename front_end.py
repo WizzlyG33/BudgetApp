@@ -5,21 +5,15 @@ from tkinter import ttk
 #Set Window
 window = Tk()
 window.title('BudgetApp')
-window.geometry('500x500')
+window.geometry('800x500')
 window.resizable(width=False, height=False)
-
-#Initialize Grid
-rows = 0
-while rows < 50:
-    window.rowconfigure(rows, weight=1)
-    window.columnconfigure(rows, weight=1)
-    rows += 1
 
 #Login
 
 #Notebook
-nb = ttk.Notebook(window)
-nb.grid(row=1, column=0, rowspan=49, columnspan=50, sticky='NESW')
+nb = ttk.Notebook(window, height=500, width=800)
+nb.pack()
+#nb.grid(row=1, column=0, rowspan=49, columnspan=50, sticky='NESW')
 
 ##################################################################
 #                           Profile                              #
@@ -31,7 +25,7 @@ nb.add(profilePage, text='Profile')
 
 #Profile Logout Button
 logoutBtn = Button(profilePage, text='Logout')
-logoutBtn.pack(pady=10, ipadx=7, padx=(440,10))
+logoutBtn.pack(pady=10, ipadx=7, padx=(720,0))
 
 #Profile Image
 profilePic = PhotoImage(file='user.png')
